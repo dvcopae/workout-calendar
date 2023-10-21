@@ -1,1 +1,3 @@
-You can start the application with `npm start`. After specifying a workout routine, you will get a link which can be used to create a Google Calendar event with the routine that you specified.
+Install with `npm -g i @ketamon/workout-calendar`. 
+
+Start the application with `workout-calendar`. 
