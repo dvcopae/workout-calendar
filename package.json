@@ -2,10 +2,13 @@
   "name": "@ketamon/workout-calendar",
   "version": "1.0.0",
   "description": "Create a calendar event for a workout routine specified by you.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "bin": {
+    "workout-calendar": "./dist/index.js"
+  },
   "scripts": {
     "build": "rm -rf dist && tsc",
-    "start": "npm run build && node dist/app.js",
+    "start": "npm run build && node dist/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,6 +22,7 @@
   },
   "homepage": "https://github.com/dvcopae/workout-calendar#readme",
   "devDependencies": {
+    "@types/figlet": "^1.5.7",
     "@types/node": "^20.8.7",
     "@types/prompt-sync": "^4.2.2",
     "@types/typescript": "^2.0.0",
@@ -26,6 +30,8 @@
   },
   "dependencies": {
     "calendar-link": "^2.6.0",
+    "commander": "^11.1.0",
+    "figlet": "^1.6.0",
     "prompt-sync": "^4.2.0"
   }
 }
