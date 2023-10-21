@@ -1,6 +1,6 @@
 {
   "name": "@ketamon/workout-calendar",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Create a calendar event for a workout routine specified by you.",
   "main": "dist/index.js",
   "bin": {
