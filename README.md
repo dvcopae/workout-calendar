@@ -1,0 +1,1 @@
+You can start the application with `npm start`. After specifying a workout routine, you will get a link which can be used to create a Google Calendar event with the routine that you specified.

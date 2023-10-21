@@ -1,0 +1,31 @@
+{
+  "name": "workout-calendar",
+  "version": "1.0.0",
+  "description": "Create a calendar event for a workout routine specified by you.",
+  "main": "index.js",
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "npm run build && node dist/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvcopae/workout-calendar.git"
+  },
+  "author": "ketamon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dvcopae/workout-calendar/issues"
+  },
+  "homepage": "https://github.com/dvcopae/workout-calendar#readme",
+  "devDependencies": {
+    "@types/node": "^20.8.7",
+    "@types/prompt-sync": "^4.2.2",
+    "@types/typescript": "^2.0.0",
+    "typescript": "^5.2.2"
+  },
+  "dependencies": {
+    "calendar-link": "^2.6.0",
+    "prompt-sync": "^4.2.0"
+  }
+}
